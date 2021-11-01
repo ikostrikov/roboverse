@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     data_files = [
-        glob('roboverse/roboverse/assets/*'))
+        glob('roboverse/roboverse/assets/*')
     ],
 )
