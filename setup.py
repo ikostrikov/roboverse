@@ -7,6 +7,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     data_files = [
-        ('assets', glob('roboverse/roboverse/assets/**/*.py', recursive=True))
+        ('assets', glob('roboverse/assets/**/*.py', recursive=True))
     ],
 )
