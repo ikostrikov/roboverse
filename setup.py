@@ -1,6 +1,6 @@
 from distutils.core import setup
 from setuptools import find_packages
-import glob
+from glob import glob
 
 setup(
     name='roboverse',
